@@ -72,7 +72,7 @@ while op != -1:
    print('The perimeter of the property with equal sides is {} sequence meters.'.format(result3))
    print('')
    print('Press enter to return to the menu...')
-   a2 = str(input(''))
+   a3 = str(input(''))
    reset_text() # clear screen - lib os
   elif op == 4:
    print('')
@@ -90,7 +90,7 @@ while op != -1:
    print('The perimeter of the property with different sides has {} sequence meters.'.format(resultadofinal))
    print('')
    print('Press enter to return to the menu...')
-   a2 = str(input(''))
+   a4 = str(input(''))
    reset_text() # clear screen - lib os
   elif op == 5:    
    print('')
@@ -102,7 +102,7 @@ while op != -1:
    print('The wall is {} square meters.'.format(result5))
    print('')
    print('Press enter to return to the menu...')
-   a2 = str(input(''))
+   a5 = str(input(''))
    reset_text() # clear screen - lib os
   elif op == 6:
    v12 = int(25) # one square meter has 25 blocks
@@ -114,7 +114,7 @@ while op != -1:
    print('It will take {} blocks to build a wall with {} square meters.'.format(result6,v11))
    print('')
    print('Press enter to return to the menu...')
-   a2 = str(input(''))
+   a6 = str(input(''))
    reset_text() # clear screen - lib os
   elif op == 7:
    print('')
@@ -133,11 +133,11 @@ while op != -1:
    print('Taking as example on a concrete block with dimensions (19Hx19Wx9C) in centimeters in horizontal axis view, and knowing that calculating a square meter of a wall will be H x W then 1 cement block has 19cm, so height with 5 blocks x width with 5 blocks = 25 blocks, so a square meter has 25 blocks so this will be the standard measurement. 25 x so many square meters = the amount of blocks to build a wall. ')
    print('Important information: ')
    print('')
-   print('This algorithm was built with integer variables so it does not accept numbers with commas e.g.: 2.90 meters change to 3 meters.')
+   print('This algorithm was built with integer variables so it does not accept numbers with commas, example: 2.90 meters change to 3 meters.')
    print('This algorithm was built in Python 3 and by default always requires that its syntax and indentation are always correct for its correct compilation in the console.')
    print('')
    print('Press enter to return to the menu...')
-   a5 = str(input(''))
+   a7 = str(input(''))
    reset_text()
   elif op == 9:
    reset_text()
@@ -151,12 +151,12 @@ while op != -1:
    print('E-mail: phreplit@gmail.com')
    print('')
    print('Press enter to return to the menu...')
-   a5 = str(input(''))
+   a8 = str(input(''))
    reset_text()
   else: 
    print('')
    print('Error. Wrong Choice!')
    print('')
    print('Press enter to return to the menu...')
-   a6 = str(input(''))
+   a9 = str(input(''))
    reset_text()
